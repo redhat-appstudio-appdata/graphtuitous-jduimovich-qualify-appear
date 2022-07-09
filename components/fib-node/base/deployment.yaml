@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fib-node
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-fib-node-d606e755ea79407ca0fcd6a8d2089e1b4257ab7a
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-fib-node
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
